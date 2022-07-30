@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CodePen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:ital,wght@1,300&display=swap" rel="stylesheet"
+
+    <script src="https://kit.fontawesome.com/e3a0be44f9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="Styles/hompage.css">
+    <link rel="stylesheet" href="Styles/hompage-body.css">
+
+</head>
+<body>
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">
+            <img src="images/Logo/codepen-wordmark-display-inside-white@10x_163987fcdd.webp" alt="logo">
+        </div>
+
+        <!-- Exploration Bar -->
+        <div class="exploreBar">
+            <div class="explore">
+                EXPLORE
+            </div>
+
+            <div class="links-wrapper">
+                <div class="nav-link">
+                    <a href="pens">Pens</a>
+                </div>
+                
+                <div class="nav-link">
+                    <a href="projects">Projects</a>
+                </div>
+                
+                <div class="nav-link">
+                    <a href="posts">Posts</a>
+                </div>
+                
+                <div class="nav-link">
+                    <a href="collections">Collections</a>
+                </div>
+                
+                <div class="dropdown">
+                    <a href="spark ">Spark</a>
+                    <i class="fa-solid fa-caret-down"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- Login -->
+        <div class="nav-bar">
+            <div class="nav-btn">
+                <button>Create</button>
+            </div>
+
+            <div class="nav-search">
+                 <button>
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                 </button>
+            </div>
+
+            <div class="nav-btn">
+                <button>Log In</button>
+            </div>
+
+            <div class="nav-btn">
+                <button>Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- body of homepage -->
+    <div class="body">
+        <!-- Left Column -->
+        <div class="leftColumn">
+            <div class="Description1"> CodePen is a <b>social development environment</b> for 
+                front-end designers and developers. <i class="fa-solid fa-hand"></i>
+            </div>
+
+            <div class="Description2">
+                It's the best place to build and deploy a website, show off your work, 
+                build test cases, and find inspiration.
+            </div>
+
+            <div class="Navigation-btn">
+                <div class="free">
+                    <button>Sign Up for Free</button>
+                </div>
+                
+                <div class="learnMore-btn">
+                    <button>Learn More</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Right Column -->
+        <div class="rightColumn">
+            <div class="imgDescription">
+                This is<p style="color: turquoise"> CodePen Projects</p> !
+            </div>
+
+            <div class="codePen">
+                <img src="Images/background/lmr7a8E.png" alt="Screenshot">
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footerElement">CodePen for <b>TEAMS</b></div>
+            <div class="footerElement">CodePen for <b>EDUCATION</b></div>
+            <div class="footerElement">CodePen for <b>PRIVACY</b></div>
+            <div class="footerElement">CodePen for <b>WRITING</b></div>
+        </div>
+    
+    </body>
+    </html>
+
+    </div>
+    
+</body>
+</html>
